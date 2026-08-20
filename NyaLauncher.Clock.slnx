@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NyaLauncher.Clock.csproj" />
+  <Project Path="tests/NyaLauncher.Clock.Tests.csproj" />
+</Solution>
