@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TouristH/NyaLauncher-Plugins/main/schemas/publisher-manifest-v1.schema.json",
+  "manifest_version": 1,
+  "id": "io.github.touristh.example-clock",
+  "name": "电子时钟示例",
+  "description": "显示当前电脑时间的电子钟组件，可切换 24/12 小时制并控制时区和秒的显示。",
+  "authors": [
+    "TouristH"
+  ],
+  "license": "MIT",
+  "repository_url": "https://github.com/TouristH/NyaLauncher.Clock",
+  "maintainers": [
+    "TouristH"
+  ],
+  "categories": [
+    "utilities"
+  ],
+  "releases": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "published_at": "2026-08-20T19:34:00Z",
+      "release_notes_url": "https://github.com/TouristH/NyaLauncher.Clock/releases/tag/v1.0.0",
+      "download": {
+        "url": "https://github.com/TouristH/NyaLauncher.Clock/releases/download/v1.0.0/io.github.touristh.example-clock-1.0.0.zip",
+        "sha256": "6ed02d5a11096efd625ea1bc92e8e8d9991620854ed203246e05c7c84cdb7f1a",
+        "size": 14185
+      },
+      "api_version": "1.0",
+      "minimum_launcher_version": "0.1.1",
+      "required_capabilities": [
+        "ui.components",
+        "system.info.read"
+      ],
+      "optional_capabilities": []
+    }
+  ]
+}
